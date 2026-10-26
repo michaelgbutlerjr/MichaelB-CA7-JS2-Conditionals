@@ -1,0 +1,43 @@
+body {
+    background-image: url("images/abstract-elegant-white-and-gray-background-abstract-white-pattern-squares-texture-vector.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    font-family: "Berkshire Swash", sans-serif;
+    color: #86692e;
+    text-shadow: 3px 3px 3px #510321;
+    font-style: oblique;
+    font-size:30px;
+}
+
+p {
+    color: aqua;
+}
+
+li {
+    color: rgb(184, 109, 12);
+}
+* { 
+    box-sizing: border-box;
+}
+
+[class*="col"] {
+            float: left;
+            padding: 10px;
+        }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+div {
+border: double cornflowerblue;
+}
